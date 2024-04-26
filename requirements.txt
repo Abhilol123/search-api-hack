@@ -1,0 +1,4 @@
+selenium==4.19.0
+uvicorn==0.29.0
+fastapi==0.110.2
+pydantic==2.7.0

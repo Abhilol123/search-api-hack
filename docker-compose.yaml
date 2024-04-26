@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  selenium-scraper:
+    build: .
+    environment:
+      - SEARCH_QUERY=example query
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/app
